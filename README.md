@@ -1,12 +1,11 @@
-# "Microservices with Go" course project
+# "Microservices with Go" project
 
 Get the starter code [here](https://github.com/SelfMadeEngineerCode/microservices-go-starter)!
 
-In this project‑driven course, you’ll build the backend microservices system for a Uber‑style ride‑sharing app from the ground up—using Go, Docker, and Kubernetes.
+In this project, we will build the backend microservices system for a Uber‑style ride‑sharing app from the ground up—using Go, Docker, and Kubernetes.
 
-By the end, you’ll have a fully deployed, horizontally scalable ride‑sharing system that’s ready for real traffic. Plus, you’ll walk away with reusable template for building future distributed projects—accelerating your path to become a lead engineer.
+By the end, we will have a fully deployed, horizontally scalable ride‑sharing system that’s ready for real traffic. Plus, you’ll walk away with reusable template for building future distributed projects—accelerating our path to become a lead engineer.
 
-Check it out at: https://www.selfmadeengineer.com/
 
 <div align="center">
   <img src="./assets/images/thumbnail.png" alt="Thumbnail" width="600">
@@ -240,6 +239,7 @@ Once the certificate is provisioned (you'll see a "Provisioning" status change t
 https://<IP_ADDRESS>
 ```
 
-Note: Since this is using a self-signed certificate, browsers will show a security warning. This is normal and expected. You can:
-Accept the warning in your browser (not recommended for production)
+Note: Since this is using a self-signed certificate, browsers will show a security warning. This is normal and expected. we can:
+Accept the warning in our browser (not recommended for production)
 Use a proper domain name (recommended for production)
+also this project main theme from selfmadeengineer site
