@@ -1,0 +1,9 @@
+#when all are off needs this run minikube
+cd /home/azizul/Backend/Backend-own/microservices-go-starter
+minikube start --driver=docker   # skip if your cluster is already up
+tilt up --stream                 # auto-builds all services + applies all manifests
+
+#when specific yml folder changes to reload
+kubectl apply -f k8s/secrets.yaml
+not working then
+kubectl rollout restart deployment/payment-service

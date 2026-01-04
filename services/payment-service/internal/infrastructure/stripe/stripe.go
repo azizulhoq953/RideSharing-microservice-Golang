@@ -26,7 +26,7 @@ func (s *stripeClient) CreatePaymentSession(ctx context.Context, amount int64, c
 	params := &stripe.CheckoutSessionParams{
 		SuccessURL: stripe.String(s.config.SuccessURL),
 		CancelURL:  stripe.String(s.config.CancelURL),
-		Metadata: metadata,
+		Metadata:   metadata,
 		LineItems: []*stripe.CheckoutSessionLineItemParams{
 			{
 				PriceData: &stripe.CheckoutSessionLineItemPriceDataParams{

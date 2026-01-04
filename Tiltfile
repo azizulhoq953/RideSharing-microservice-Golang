@@ -113,6 +113,9 @@ docker_build(
   'ride-sharing/web',
   '.',
   dockerfile='./infra/development/docker/web.Dockerfile',
+  build_args={
+    'NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY': os.getenv('NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY', ''),
+  },
 )
 
 k8s_yaml('./infra/development/k8s/web-deployment.yaml')
