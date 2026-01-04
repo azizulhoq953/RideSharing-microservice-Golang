@@ -2,9 +2,9 @@
 
 Get the starter code [here](https://github.com/SelfMadeEngineerCode/microservices-go-starter)!
 
-In this project, we will build the backend microservices system for a Uber‑style ride‑sharing app from the ground up—using Go, Docker, and Kubernetes.
+In this project, build the backend microservices system for a Uber‑style ride‑sharing app from the ground up—using Go, Docker, and Kubernetes.
 
-By the end, we will have a fully deployed, horizontally scalable ride‑sharing system that’s ready for real traffic. Plus, you’ll walk away with reusable template for building future distributed projects—accelerating our path to become a lead engineer.
+By the end, I, will have a fully deployed, horizontally scalable ride‑sharing system that’s ready for real traffic. Plus, you’ll walk away with reusable template for building future distributed projects—accelerating our path to become a lead engineer.
 
 
 <div align="center">
